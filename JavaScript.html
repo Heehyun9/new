@@ -3,24 +3,51 @@
     <head>
         <title>WEB - JavaScript</title>
         <meta charset="utf-8">
+        <style>
+            a {
+                color:black; 
+                text-decoration:none;
+             }     /*color:red->(속성,효과,선택자에게 지정될), a-선택자(이 웹페이지에 있는 모든 a태그 선택하여 속성 적용, selector, vs (html code style="color:dd")) */
+            name {
+                text-align:center;
+                font:60px itallic bold;
+                border:5px red outset;
+                background-color:lightcoral;
+                display:inline;
+            }
+            b {
+                text-align:center;
+                font:20px bold;
+                border:3px black outset;
+                background-color:lightsalmon;
+                display:inline;
+            }
+            .saw{
+                color:gray;
+            }
+            #active{
+                color:red;
+            }
+            
+        </style>
     </head>
     <body>
         <p>
-            <a href="file:///D:/workspace/new/new/index.html" target="_top" title="WEB"><h1>WEB</h1></a>
+            <a href="file:///D:/workspace/new/new/index.html" target="_top" title="WEB"><name>WEB</name></a>
         </p>
         <p>
-            <ol>
-                <a href="file:///D:/workspace/new/new/HTML.html" target="_self" title="HTML"><li>HTML</li></a>  
-                <a href="file:///D:/workspace/new/new/CSS.html" target="_self" title="CSS"><li>CSS</li></a>
-                <a href="file:///D:/workspace/new/new/JavaScript.html" target="_self" title="JavaScript"><li>JavaScript</li></a>
-            </ol>
+            <ul>
+                <a href="file:///D:/workspace/new/new/HTML.html" target="_self" title="HTML" class="saw"><b>HTML</b></a>  
+                <a href="file:///D:/workspace/new/new/CSS.html" target="_self" title="CSS" class="saw"><b>CSS</b></a>
+                <a href="file:///D:/workspace/new/new/JavaScript.html" target="_self" title="JavaScript" class="saw" id="active"><b>JavaScript</b></a>
+            </ul>
         </p>
     
         <p>
             <span style="font-size:22px;"><strong>JavaScript</strong></span>
         </p>
         <p>
-            <span style="font-size:15px;">1dfdsJavaScript (/ˈdʒɑːvəˌskrɪpt/[6]), often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in JavaScript engine. Each of the many JavaScript engines represent a different implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the spec fully, and with many engines supporting additional features beyond ECMA.</span>
+            <span style="font-size:15px;">JavaScript (/ˈdʒɑːvəˌskrɪpt/[6]), often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in JavaScript engine. Each of the many JavaScript engines represent a different implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the spec fully, and with many engines supporting additional features beyond ECMA.</span>
         </p>
     </body>
 </html>
